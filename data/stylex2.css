@@ -1,0 +1,159 @@
+.Timeline10,
+.Timeline21,
+.Timeline22,
+.Timeline31,
+.Timeline32 {
+  display: flex;
+  width: 5440px;
+}
+
+
+.Timeline10 {
+  align-items: flex-end;
+  height: 65px;
+}
+.Timeline21 {
+  align-items: center;
+  height: 150px;
+}
+.Timeline22 {
+  align-items: center;
+  height: 375px;
+}
+.Timeline31 {
+  align-items: flex-start;
+  height: 50px;
+}
+.Timeline32 {
+  align-items: flex-start;
+  height: 85px;
+}
+
+
+
+.timeprime {
+  background-image: url(img/primelinefont.png)	 ;
+  background-color: rgba(255, 255, 255, 1) ;
+  background-repeat:no-repeat,repeat ;
+  background-attachment: fixed;
+  border-top-color: rgba(0,0,0,0.3)
+}
+
+.timespin {
+  background-image: url(img/spinlinefont.png) ;
+  background-color: rgba(255, 255, 255, 1) ;
+  background-repeat:no-repeat,repeat ;
+  background-attachment: fixed;
+  border-top-color: rgba(0,0,0,0.3)
+}
+
+.timelimited {
+  background-image: url(img/limitedlinefont.png) ;
+  background-color: rgba(255, 255, 255, 1) ;
+  background-repeat:no-repeat,repeat ;
+  background-attachment: fixed;
+  border-top-color: rgba(0,0,0,0.3)
+}
+
+
+
+
+.big {
+  width: 100%;
+  overflow-x: scroll
+  
+}
+
+
+
+.event1,
+.event2, .event3 {
+  position: relative;
+}
+
+
+
+.texte {
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align:center;
+  line-height: 12px;
+  margin-top: 10px;
+  font-family: "Century Gothic", cursive, sans-serif;
+  color: #000000;
+}
+
+.arc {
+
+  font-size: 11px;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Arial Black", Gadget, sans-serif;
+  color: #000000;
+  bottom:5px;
+  text-transform: uppercase;
+}
+
+
+.arcR {
+
+  font-size: 13px;
+  text-align: center;
+  font-family: "Century Gothic", cursive, sans-serif;
+  color: #000000;
+  bottom:5px;
+  text-transform: uppercase;
+}
+
+
+.Book {
+  font-size: 11px;
+  text-align: center;
+  font-weight: bold;
+  font-family:  "Century Gothic", cursive, sans-serif;
+  color: #000000;
+  bottom:5px;
+  text-transform: uppercase;
+}
+
+.Numb {
+  line-height: 11px;
+  color: #4C4A4A;
+  font-size: 11px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-family:  "Century Gothic", cursive, sans-serif;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+.now{
+     background-color: #004165;
+    color: white;
+    border-radius: 7px;
+    margin: 5px;
+    padding: 4px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid white;
+    font-weight: bold;
+    box-shadow: 0 0 0 2px #004165;
+	height: 120px
+}
+
+.futureGray{
+     filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+  
+}
+
+.futureOpacity{
+  -webkit-filter: opacity(.3);
+  filter: opacity(.3);
+  
+}

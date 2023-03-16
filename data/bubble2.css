@@ -1,0 +1,134 @@
+/* BASES */
+
+.Bubble {
+  background-color: rgba(255, 255, 255, 0.92);
+  background-repeat:no-repeat,repeat ;
+  border-style: solid;
+  box-shadow: inset 0 0 15px rgba(100, 100, 100, 0.6);
+  height: 70px;
+  width:180px;
+  border-width: 02px;
+}
+
+
+.start {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  }
+
+
+.cs {
+  border-left-width: 0px;
+}
+
+
+.end {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  }
+
+
+
+
+
+.Rond {
+  background-color: rgba(255, 255, 255, 0.92);
+  background-repeat:no-repeat,repeat ;
+  border-style: solid;
+  border-radius: 0px;
+  box-shadow: inset 0 0 15px rgba(100, 100, 100, 0.6);
+  height: 40px;
+  width:40px;
+  border-radius: 25px;
+  border-width: 02px;
+  border-color: rgba(240, 186, 41, 1)
+}
+
+
+
+.Rond2 {
+  background-color: rgba(255, 255, 255, 0.92);
+  background-repeat:no-repeat,repeat ;
+  border-style: solid;
+  border-radius: 0px;
+  box-shadow: inset 0 0 15px rgba(100, 100, 100, 0.6);
+  height: 40px;
+  width:40px;
+  border-radius: 25px;
+  border-width: 02px;
+  border-color: rgba(240, 186, 41, 1);
+  margin-top: 13px
+}
+
+
+
+.Bubble22 {
+  background-color: rgba(255, 255, 255, 0.98);
+  background-repeat:no-repeat,repeat ;
+  border-style: solid;
+  border-color: rgb(100, 100, 100);
+  border-radius: 0px;
+  
+  height: 82px;
+  border-width: 02px;
+  background-position: 0px -30px;
+}
+
+
+
+
+
+/* PHASES */
+
+.now1 {
+  border-color: rgba(0, 144, 128, 1);
+}
+
+.new {
+  border-color: rgba(0, 228, 255, 1);
+}
+
+.avnow {
+  border-color: rgba(32, 118, 128, 1);
+}
+
+.anad {
+  border-color: rgba(64, 235, 255, 1);
+}
+
+.now2 {
+  border-color: rgba(64, 121, 128, 1);
+}
+
+.legacy {
+  border-color: rgba(128, 242, 255, 1);
+}
+
+
+
+/* CHARACTERS */
+
+.ironb {
+  background-image: url("iron.png");
+  
+}
+
+.capb {
+  background-image: url("cap.jpg");
+
+}
+
+.spidyb {
+  background-image: url("spidy.jpg");
+ 
+}
+
+.thorb {
+  background-image: url("thor.jpg");
+ 
+}
+
+.hulkb {
+  background-image: url("hulk.jpg");
+
+}

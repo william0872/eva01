@@ -1,0 +1,393 @@
+.Timeline {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  width: 1440px;
+  background-color:  rgba(10, 10, 10, 0);
+  
+}
+
+/* pour chronologie */
+.Timelinea {
+  display: flex;
+  justify-content:center;
+  width: 640px;
+  background-color:  rgba(10, 10, 10, 0);
+  margin-top: 40px
+}
+
+/* pour voir aussi */
+.Timelineb {
+    display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+  flex-wrap: wrap;
+  width: 642px;
+  height: 75px;
+  background-color:  rgba(10, 10, 10, 0);
+  margin-top: 175px
+}
+
+/* pour album */
+.Timelinec {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-wrap: wrap;
+  width: 642px;
+  height: 75px;
+  background-color:  rgba(10, 10, 10, 0);
+  margin-top: 175px
+}
+
+/* pour titre */
+.Timelinetit {
+  display: flex;
+  justify-content:center;
+  width: 640px;
+  background-color:  rgba(10, 10, 10, 0);
+  margin-top: 40px
+}
+
+/* pour logo */
+.Timelinephasetitre {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  width: 640px;
+  background-color:  rgba(255, 255, 255, 1);
+  padding-bottom: 20px;
+  margin-top: -40px;
+  position: fixed;
+  z-index: 1;
+  border-bottom-style: dashed;
+  border-width: 03px;
+  border-color: #f0ba29
+}
+.Timelinephase {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  width: 640px;
+  background-color:  rgba(10, 10, 10, 0);
+  margin-top: 40px;
+}
+
+/* pour texteGAUCHE */
+.TimelineG {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  width: 320px;
+  background-color:  rgba(10, 10, 10, 0);
+  margin-bottom: 20px;
+  
+  border-right-style: dashed;
+  border-width: 03px;
+  border-color: #f0ba29
+}
+
+/* pour texteGAUCHE */
+.TimelineD {
+  display: flex;
+  justify-content:left;
+  align-items: left;
+  width: 320px;
+  background-color:  rgba(10, 10, 10, 0);
+  margin-bottom: 20px;
+}
+
+
+
+
+.event1,
+.event2, .event3 {
+  position: relative;
+}
+
+/* AVANT */
+
+
+.event1Bubble,
+.event2Bubble,
+.event3Bubble,
+.event4Bubble,
+.event5Bubble {
+  position: absolute;
+  background-color: rgba(158, 158, 158, 0.1);
+  width: 250px;
+  height: 70px;
+  left: 05px; 
+  border-top-left-radius: 60px;
+  border-bottom-left-radius: 60px;
+  box-shadow: inset 0 0 5px rgba(158, 158, 158, 0.64)
+}
+
+.event1Bubble {
+  top: 33px
+}
+
+.event2Bubble {
+  top: 133px
+}
+
+.event3Bubble {
+  top: 233px
+}
+
+.event4Bubble {
+  top: 433px
+}
+
+.event5Bubble {
+  top: 533px
+}
+
+
+
+/* APRES */
+
+
+.eventaBubble,
+.eventbBubble,
+.eventcBubble,
+.eventdBubble,
+.eventeBubble {
+  position: absolute;
+  background-color: rgba(158, 158, 158, 0.1);
+  width: 250px;
+  height: 70px;
+  left: -150px; 
+  border-top-right-radius: 60px;
+  border-bottom-right-radius: 60px;
+  box-shadow: inset 0 0 5px rgba(158, 158, 158, 0.64)
+}
+
+.eventaBubble {
+  top: 33px
+}
+
+.eventbBubble {
+  top: 133px
+}
+
+.eventcBubble {
+  top: 233px
+}
+
+.eventdBubble {
+  top: 333px
+}
+
+.eventeBubble {
+  top: 433px
+}
+
+
+
+div.survol {
+  text-decoration: none;
+}
+
+div:hover.survol {
+  text-decoration: none;
+  background: none;
+}
+
+div.survol span {display: none;}
+
+div:hover.survol span {
+  display: block;
+  position: absolute; 
+  top: 0px;
+  left: 180px;
+  z-index: 20;
+  width:122px;
+  padding:2px 4px;
+}
+
+
+
+
+
+
+
+
+
+
+/* AVANT */
+
+
+.eventTime {
+  display: flex;
+}
+
+.DayDigit {
+  font-size: 120px;
+  font-family: "Arial Black", Gadget, sans-serif;
+  margin-left: -63px;
+  margin-top: -56px;
+  color: #f0ba29;
+}
+
+.DayDigit1 {
+  font-size: 100px;
+  font-family: "Arial Black", Gadget, sans-serif;
+  margin-left: -83px;
+  margin-top: -41px;
+  color: #f7cf62;
+}
+
+
+.Day {
+  font-size: 11px;
+  margin-left: 5px;
+  font-weight: bold;
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4C4A4A;
+}
+
+.MonthYear {
+  font-weight: 600;
+  line-height: 10px;
+  color: #9E9E9E;
+  font-size: 9px;
+}
+
+
+
+
+
+
+/* APRES */
+
+
+.eventTime2 {
+  display: flex;
+  flex-direction: row-reverse
+}
+
+.DayDigit2 {
+  font-size: 120px;
+  font-family: "Arial Black", Gadget, sans-serif;
+  margin-right: -63px;
+  margin-top: -56px;
+  color: #f0ba29;
+}
+
+.DayDigit22 {
+  font-size: 100px;
+  font-family: "Arial Black", Gadget, sans-serif;
+  margin-right: -83px;
+  margin-top: -41px;
+  color: #f7cf62;
+}
+
+.Day {
+  font-size: 11px;
+  margin-left: 5px;
+  font-weight: bold;
+  margin-top: 10px;
+font-size: 11px;
+  text-align: center;
+  font-weight: bold;
+  font-family:  "Century Gothic", cursive, sans-serif;
+  color: #000000;
+  bottom:5px;
+  text-transform: uppercase;
+}
+
+.MonthYear {
+font-size: 11px;
+  text-align: center;
+  font-weight: bold;
+  font-family:  "Century Gothic", cursive, sans-serif;
+  color: #777777;
+  bottom:5px;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+.grandtitre {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-family:  "Century Gothic", cursive, sans-serif;
+  color: #333333;
+  text-transform: uppercase;
+  margin-left:15px;
+  margin-right:15px;
+    border-color: rgba(0, 144, 128, 1);
+  border-width: 02px;
+}
+
+
+img.grandtitre {
+height:10px;
+
+}
+
+.titre {
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+  font-family:  "Century Gothic", cursive, sans-serif;
+  color: #333333;
+  text-transform: uppercase;
+  margin-left:15px;
+  margin-right:15px;
+}
+
+
+
+
+.resum {
+  font-size: 14px;
+  text-align: center;
+  font-family:  "Century Gothic", cursive, sans-serif;
+  color: #000000;
+  margin-left:15px;
+  margin-right:15px;
+}
+
+
+.notresum {
+  font-size: 14px;
+  text-align: left;
+  font-family:  "Century Gothic", cursive, sans-serif;
+  color: #000000;
+  margin-left:15px;
+  margin-right:15px;
+}
+
+.tresum {
+  font-size: 14px;
+  text-align: center;
+  font-family:  "Century Gothic", cursive, sans-serif;
+  color: #000000;
+  font-weight: bold;
+  margin-left:15px;
+  margin-right:15px;
+  text-transform: uppercase;
+}
+
+
+
+.time {
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+  font-family:  "Century Gothic", cursive, sans-serif;
+  color: #777777;
+  text-transform: uppercase;
+  
+  width: 100px;
+}
